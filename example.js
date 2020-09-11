@@ -28,7 +28,7 @@ function download_csv(info) {
        csv += "\n";
    });
 
-   //Download Part
+   //Create and Download CSV file
    var element = document.createElement('a');
    element.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
    element.target = '_blank';
